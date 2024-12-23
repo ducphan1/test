@@ -1,0 +1,43 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: transparent; 
+}
+
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+
+  border-radius: 5px;
+  width: 572px;
+
+}
+
+.todo-item input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.todo-item span {
+  flex: 1;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.todo-item .delete-button {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-item .delete-button:hover {
+  background-color: #ff7875;
+}

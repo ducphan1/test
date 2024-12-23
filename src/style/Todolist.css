@@ -1,0 +1,21 @@
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .delete-all {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    margin-left: 965px;
+  }
+  
+  .delete-all:hover {
+    background-color: #ff7875;
+  }
