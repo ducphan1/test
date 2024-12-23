@@ -20,7 +20,14 @@
 }
 
 .todo-item input[type="checkbox"] {
+  accent-color: #3B67E9; 
+  width: 20px;
+  height: 20px;
   cursor: pointer;
+}
+
+.todo-item input[type="checkbox"]:checked {
+  accent-color: #3B67E9; 
 }
 
 .todo-item span {
